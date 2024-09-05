@@ -59,10 +59,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp CAPS          &kp N1           &kp N2          &kp N3             &kp N4            &kp N5             &kp N6            &kp N7             &kp N8           &kp N9            &kp N0    &kp BSPC
-&kp LEFT_SHIFT    &trans           &trans          &kp C_AC_ZOOM_OUT  &kp C_AC_ZOOM_IN  &trans             &bt BT_CLR        &kp DOWN           &kp UP           &kp LEFT_BRACKET  &kp HOME  &kp NON_US_BACKSLASH
-&kp LEFT_CONTROL  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_BRI    &rgb_ug RGB_EFR   &rgb_ug RGB_EFF    &ext_power EP_ON  &ext_power EP_OFF  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD   &kp END   &kp PG_DN
-                                                   &mo 3              &mo 2             &trans             &kp SPACE         &kp DEL            &mo 0
+&kp CAPS          &kp N1           &kp N2  &kp N3             &kp N4            &kp N5             &kp N6            &kp N7             &kp N8            &kp N9             &kp N0            &kp BSPC
+&kp LEFT_SHIFT    &trans           &trans  &kp C_AC_ZOOM_OUT  &kp C_AC_ZOOM_IN  &trans             &bt BT_CLR        &kp DOWN           &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SINGLE_QUOTE  &kp NON_US_BACKSLASH
+&kp LEFT_CONTROL  &rgb_ug RGB_OFF  &none   &rgb_ug RGB_BRI    &rgb_ug RGB_EFR   &rgb_ug RGB_EFF    &ext_power EP_ON  &ext_power EP_OFF  &rgb_ug RGB_BRI   &rgb_ug RGB_BRD    &kp END           &kp PG_DN
+                                           &mo 3              &mo 2             &kp SPACE          &kp SPACE         &none              &mo 0
             >;
         };
 
@@ -86,10 +86,10 @@
         layer_3 {
             display-name = "Fn";
             bindings = <
-&trans  &kp F1          &kp F2        &kp F3        &kp F4        &kp F5          &kp F6       &kp F7  &kp F8  &kp F9  &kp F10          &kp F11
-&trans  &bootloader     &trans        &trans        &sys_reset    &bootloader     &bootloader  &trans  &trans  &trans  &kp PRINTSCREEN  &kp F12
-&trans  &bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &trans       &trans  &trans  &trans  &kp SCROLLLOCK   &kp PAUSE_BREAK
-                                      &trans        &trans        &trans          &trans       &trans  &trans
+&trans  &kp F1          &kp F2          &kp F3        &kp F4        &kp F5          &kp F6       &kp F7  &kp F8  &kp F9  &kp F10          &kp F11
+&trans  &bootloader     &rgb_ug RGB_ON  &trans        &sys_reset    &bootloader     &bootloader  &trans  &trans  &trans  &kp PRINTSCREEN  &kp F12
+&trans  &bt BT_CLR_ALL  &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &trans       &trans  &trans  &trans  &kp SCROLLLOCK   &kp PAUSE_BREAK
+                                        &trans        &trans        &trans          &trans       &trans  &trans
             >;
         };
     };
