@@ -1,10 +1,10 @@
 manifest:
   remotes:
-    - name: caksoylar
-      url-base: https://github.com/caksoylar
+    - name: thienduc12311
+      url-base: https://github.com/thienduc12311
   projects:
     - name: zmk
-      remote: caksoylar
+      remote: thienduc12311
       revision: caksoylar/zen-v1+v2+experimental  # custom branch name
       import: app/west.yml
   self:
